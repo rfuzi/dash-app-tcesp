@@ -17,7 +17,9 @@ server = app.server
 
 
 # Plotly mapbox public token
-mapbox_access_token = "pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNqdnBvNDMyaTAxYzkzeW5ubWdpZ2VjbmMifQ.TXcBE-xg9BFdV2ocecc_7g"
+mapbox_access_token = 'pk.eyJ1IjoicGxvdGx5bWFwYm94IiwiYSI6ImNqdnBvNDMyaTAxYzkzeW5ubWdpZ2VjbmMifQ.TXcBE-xg9BFdV2ocecc_7g'
+
+githublink = 'https://github.com/rfuzi/dash-app-tcesp'
 
 # Dictionary of important locations in New York
 list_of_locations = {
