@@ -510,6 +510,18 @@ def update_graph(datePicked, selectedData, selectedLocation):
         ),
     )
 
+########### Set up the layout
+app.layout = html.Div(children=[
+    html.H1(myheading),
+    dcc.Graph(
+        id='figure-1',
+        figure=fig
+    ),
+    html.A('Code on Github', href=githublink),
+    html.Br(),
+    ]
+)
+
 
 if __name__ == "__main__":
     app.run_server(debug=True)
