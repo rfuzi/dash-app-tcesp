@@ -509,7 +509,7 @@ def update_graph(datePicked, selectedData, selectedLocation):
             ],
         ),
     )
-
+""" 
 ########### Set up the layout
 app.layout = html.Div(children=[
     html.H1(myheading),
@@ -521,7 +521,7 @@ app.layout = html.Div(children=[
     html.Br(),
     ]
 )
-
+ """
 
 if __name__ == "__main__":
     app.run_server(debug=True)
