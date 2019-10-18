@@ -518,7 +518,7 @@ app.layout = html.Div(children=[
         figure=fig
     ),
     html.A('Code on Github', href=githublink),
-    html.Br(),-
+    html.Br(),
     ]
 )
 
