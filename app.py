@@ -36,9 +36,9 @@ list_of_locations = {
 
 # Initialize data frame
 
-receitas_2014 = pd.read_csv('receitas-2014.csv', sep=';',engine='python', encoding='latin-1')
+""" receitas_2014 = pd.read_csv('receitas-2014.csv', sep=';',engine='python', encoding='latin-1')
 
-receitas_2014['vl_arrecadacao_float'] = receitas_2014['vl_arrecadacao'].apply(lambda x: float(x.replace(',','.')))
+receitas_2014['vl_arrecadacao_float'] = receitas_2014['vl_arrecadacao'].apply(lambda x: float(x.replace(',','.'))) """
 
 mun_sp = pd.read_csv('mun_sp.csv')
 
@@ -518,7 +518,7 @@ app.layout = html.Div(children=[
         figure=fig
     ),
     html.A('Code on Github', href=githublink),
-    html.Br(),
+    html.Br(),-
     ]
 )
 
